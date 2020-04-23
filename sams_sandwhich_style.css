@@ -1,3 +1,58 @@
 @charset "UTF-8";
 /* CSS Document */
+input:invalid {
+    border: 1px solid red;
+}
+
+input[type=text], [type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#confirmOverlay {
+    /* style on confirm overlay */
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EBFF2D;
+    opacity: 0.95;
+    transition: 0.2s;
+    width: 100vw;
+    height: 0;
+    /* height adjusted to expand overlay */
+}
+
+#confirmOverlay p {
+    /* style on text portion of confirm overlay */
+    line-height: 100vh;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3vw;
+    opacity: 1.0;
+    color: #000000;
+}
+
+#confirmOverlay a {
+    /* style on cross to close confirm overlay */
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 45px;
+    font-size: 90px;
+}
+
+#confirmOverlay a:hover {
+    color: yellow;
+}
+
 
