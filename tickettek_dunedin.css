@@ -75,3 +75,46 @@ button:hover {
 .step.finish {
   background-color: #4CAF50;
 }
+
+
+.banner {
+	/* class used to style header and footer */
+	height: 10vw;
+	background-color: #6BBAA7;
+}
+
+.banner img {
+	position: absolute;
+	right: 2.5vw;
+	height: 12vw;
+	top: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.banner h1 {
+	padding: 2.5vw;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 4vw;
+	text-align: left;
+}
+
+#header {
+	top: 0;
+	margin-bottom: 2vw;
+}
+
+#footer {
+	bottom: 0;
+	height: auto;
+	text-align: center;
+}
+
+#footer p {
+	display: inline-block;
+	width: 33%;
+	color: #ffffff;
+	box-sizing: border-box;
+}
+
+

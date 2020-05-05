@@ -9,7 +9,10 @@
 <link href="tickettek_dunedin.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+	<div id="header" class="banner">
+	<h1>- Tickettek Dunedin -</h1>
+	<img src="images/Tickettek_logo.png">
+	</div>
 <form id="regForm">
   <h1>Tickettek Dunedin</h1>
   <!-- One "tab" for each step in the form: -->
@@ -45,7 +48,9 @@
 		<label>Last name: <input id="last_name" placeholder="Last name e.g. Smith" type="text" data-error="Please enter only letters" data-number="2" class="contact_info" pattern="[A-Za-z]{2,20}"><output id="2A"></output></label><br>
 		<label>Email address: <input id="email_address" placeholder="Email address e.g. johndoe@gmail.com" type="email" data-error="Please enter a valid email" dtaa-number="3" class="contact_info" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><output id="3A"></output></label><br>
 		<label>Cellphone: <input id="phone_number" placeholder="Cellphone number e.g. 023938383" type="tel" data-error="Please enter only numbers" data-number="4" class="contact_info" pattern="[0-9]{8,12}"><output id="4A"</label><br>
+			<button id="confirmbooking" onClick="pushData()">Confirm Booking</button>
 	</div><br><br>
+		
  
   <div style="overflow:auto;">
     <div style="float:right;">
@@ -54,14 +59,41 @@
     </div>
   </div>
   <!-- Circles which indicates the steps of the form: -->
-	<script src="tickettek_html.v1.js"></script>
+	<script src="tickettek_dunedin_V3.js"></script>
   <div style="text-align:center;margin-top:40px;">
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
+    <span class="step" onClick="nextStep('1')"></span>
+    <span class="step"onClick="nextStep('2')"></span>
+    <span class="step"onClick="nextStep('3')"></span>
+    <span class="step"onClick="nextStep('4')"></span>
   </div>
+		
+		<div id="footer" class="banner">
+			<p>2 Arthur Street, Dunedin</p>
+			<p>Ph: 03 4775277</p>
+			<p>tickettekdunedin@gmail.com</p>
+		</div>
 </form>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDv71MW35WmGdXAjSfAKW9neIBsbwGuwtI",
+    authDomain: "tickettek-dunedin-v1.firebaseapp.com",
+    databaseURL: "https://tickettek-dunedin-v1.firebaseio.com",
+    projectId: "tickettek-dunedin-v1",
+    storageBucket: "tickettek-dunedin-v1.appspot.com",
+    messagingSenderId: "908742309002",
+    appId: "1:908742309002:web:9384b79d78dab12597e973"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
 
 
 
