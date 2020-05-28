@@ -1,6 +1,8 @@
 // JavaScript Document
 alert("js is attached");
-var dailyPrice , dailyPrice=0, room=0, totalCost; //global variables
+var dailyPrice=0, room=0, totalCost; //global variables
+var database = firebase.database();
+
 
 function updateRoom() {
     // function called when a vehicle card div is clicked on
@@ -41,9 +43,14 @@ function updateBooking(){
 
 function checkInputs() {
 	alert("Inside check inputs");
-
 }
 
+
+firebase.database().ref('bookings').push(data);
+document.getElementById('confirmOverlay').style.height = "100%";
+settimeout(function() {
+	location.reload();
+}, 3000);
 
 // event listener for when a user selects nights/date/extras is clicked
 var allInputs = document.getElementsByClassName('addCheck');
