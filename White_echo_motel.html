@@ -12,13 +12,16 @@
    
     </header>
 <body>
-      <div class="main_content">
-    <h2>Step 1 - Click on the room to make a booking</h2>
-           <h2>Step Four - Select your check in date:</h2>
+    
+  
+           <h2>Step One - Select your check in date:</h2>
             <label>Check in date:</label> <input id="checkInDate" type="date" class="addCheck">
            
-<h2>Step Five - Enter your number of nights:</h2>
+<h2>Step Two - Enter your number of nights:</h2>
             <label>Number of nights:</label><input id="numberNights" type="number" min="1" max="10" class="addCheck">
+	
+  <div class="main_content">		  
+		  <h2>Step Three - Select your room:</h2>
 <div class="roomCard" data-name="Executive Studio" data-price="249" data-beds="249">
 <img src="executive suite (1).jpg" alt="White echo motel image" height="300px" width="400px">
 <div class="textOverlay">
@@ -45,12 +48,12 @@
 </div>
 
 
-<div class="roomCard" data-name="Family Studio" data-price="289">
+<div class="roomCard" data-name="Two Bedroom" data-price="329">
 <img src="two bedroom suite.jpg" alt="White echo motel image" height="300px" width="400px">
 <div class="textOverlay">
-<h2>Family Studio - $289</h2><br>
+<h2>Family Studio - $329</h2><br>
 </div>
-<p>Family Studio - $289</p>
+<p>Family Studio - $329</p>
 </div>
 		  
 		  
@@ -58,7 +61,7 @@
 		  
 		  
           <!-- inputs for customer details -->
-<h2>Step Six - Enter your details</h2><label>First name:</label> <input autocomplete="on" id="firstNameInput" placeholder="John" required="" title="Enter your first name" type="text"><br>
+<h2>Step Four - Enter your details</h2><label>First name:</label> <input autocomplete="on" id="firstNameInput" placeholder="John" required="" title="Enter your first name" type="text"><br>
 <label>Last name:</label> <input autocomplete="on" id="lastNameInput" placeholder="Smith" required="" title="Enter your last name" type="text"><br>
 <label>Email address:</label> <input autocomplete="on" id="emailInput" placeholder="jonhsmith@gmail.com" required="" title="Enter your email address" type="email"><br>
 <label>Cellphone:</label><input autocomplete="on" id="cellphoneInput" placeholder="0274822556" required="" title="Enter cellphone address" type="text"><br>
@@ -100,7 +103,7 @@
  
  
 </table>
-           <h2>Step Three - Induldge yourself</h2>
+           <h2>Step Five - Induldge yourself</h2>
           <p>Why not take the stress out of your visit and add some extra special services to your stay with us.</p>
 <label><input class="addCheck"  data-price="0" type="checkbox" value="Cot">Cot - FREE</label>
                 <label><input class="addCheck" data-price="60" type="checkbox" value="Massage">Massage $60</label>
@@ -108,7 +111,29 @@
                 <label><input class="addCheck"  data-price="25" type="checkbox" value="Breakfast">Breakfast $25 per room/day</label>		  
 		  
 		  
-		  
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC3NTpB96wHpvzvj4F7L7cehvb1DXCsON8",
+    authDomain: "user-names-e0365.firebaseapp.com",
+    databaseURL: "https://user-names-e0365.firebaseio.com",
+    projectId: "user-names-e0365",
+    storageBucket: "user-names-e0365.appspot.com",
+    messagingSenderId: "1010581242157",
+    appId: "1:1010581242157:web:a51618e3cfcf00ada5d3a4",
+    measurementId: "G-22ZVHJ5S5W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>	  
    
    <script src="White_echo_motel.js.js"></script>
 </div>
