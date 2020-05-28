@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.container {
+    background-color: var(--bg-panel);
+    padding: 30px;
+    width: 80%;
+    padding-top: 10px;
+    border-radius: 15px;
+    color: var(--color-text);
+    margin: 10px auto;
+    max-width: 1024px;
+    box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.062);
+}
+
+h2{
+    color: #96d3e2;
+    margin:30px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;  
+}
+
+
+[type='text'], [type='date'], [type='email'], [type='number'], textarea {
+display: inline-block;
+padding: 0.5rem;
+background: transparent;
+vertical-align: middle;
+width: 100%;
+max-width: 100%;
+border: 1px solid #cdcdcd;
+border-radius: 4px;
+font-size: 0.95rem;
+}
+
+table {
+width: 80%;
+margin: auto;
+}
+
+header{
+    background-color: #96d3e2;
+    height:100px;
+    color:darkblue;
+    font-size:130%;
+    text-align:left;
+    padding: 20px 150px;
+     font-family: 'Russo One', sans-serif;
+ 
+}
+
+.logo {
+float: left;
+display: inline-block;
+height: 100%;
+width: 10%;
+}
+.main_content{
+    width:80%;
+    margin: auto;
+    padding:10px;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.float_right{
+    float:right;
+}
+
+footer{
+    background-color: #96d3e2;
+    height:100px;
+    color:darkblue;
+    font-size:100%;
+    text-align:left;
+    padding: 20px 150px;
+     font-family: 'Russo One', sans-serif;
+}
+
+
+
+.roomCard {
+    /* style for the room card container */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 25vw;
+}
+
+.roomCard img {
+    width:25vw;
+}
+
+.textOverlay {
+    /* style of overlay on room cards, only displayed on hover */
+    background-color: #76CEDC;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 20vw;
+    text-align: center;
+    opacity: 0.0;
+    transition: 0.2s;
+    font-size: 30px;
+}
+
+.textOverlay h2 {
+    font-size: 2vw;
+}
+
+.textOverlay:hover {
+    opacity: 0.9;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* media queries for resizing program for a mobile screen. */
+   .roomCard img {
+    width:60vw;
+}
+    .roomCard{
+       width:60vw;
+    }
+    .textOverlay h2{
+width:60vw;    
+    }
+   
+ 
+}
