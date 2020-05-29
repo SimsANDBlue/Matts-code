@@ -1,7 +1,7 @@
 // JavaScript Document
 alert("js is attached");
 var dailyPrice=0, room=0, totalCost; //global variables
-var database = firebase.database();
+var firebase = database.firebase();
 
 
 function updateRoom() {
@@ -43,14 +43,20 @@ function updateBooking(){
 
 function checkInputs() {
 	alert("Inside check inputs");
+	var firstName = document.getElementById("firstNameInput").value;
+	var lastName = document.getElementById("lastNameInput").value;
+	var cellphone = document.getElementById("cellphoneInput").value;
+	var email = document.getElementById("emailInput").value;
+	alert(firstName+lastName+cellphone+email);
+	pushData();
 }
 
 
-firebase.database().ref('bookings').push(data);
-document.getElementById('confirmOverlay').style.height = "100%";
-settimeout(function() {
+	firebase.database().ref('bookings').push(data);
+	document.getElementById('confirmOverlay').style.height = "100%";
+	setTimeout(function(){
 	location.reload();
-}, 3000);
+	}, 3000);
 
 // event listener for when a user selects nights/date/extras is clicked
 var allInputs = document.getElementsByClassName('addCheck');
