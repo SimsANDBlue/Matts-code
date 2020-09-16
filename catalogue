@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GiftHub NZ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="gifthub_nz.css" rel="stylesheet" type="text/css">
+<script src="github_nz.js"></script>
+</head>
+
+<body>
+		
+  <div class="topnav" id="myTopnav">
+  <img alt="Logo" class="logo" src="Images/gift_hub_cancer_logo.png" width="200">
+ <a href="bcfnz.html">BCF NZ</a>	  
+ <a href="our_story.html">Our Story</a>
+ <a class="active" href="catalogue.html">Catalogue</a>
+ <a href="index.html">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
+	<div class="main_content">
+		<h1 class="float">Our Catalogue</h1>
+		<br><br><br><br>
+	<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_gummies.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Calm & Clear</p>
+      <p>$25</p>
+    </div>
+  </div>
+		
+
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_gummies_2.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Immunity Gummies</p>
+      <p>$25</p>
+    </div>
+  </div>
+	
+	
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_Gold.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Box Gold</p>
+      <p>$65</p>
+    </div>
+  </div>
+	
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_BUFF.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Buff Barskets</p>
+      <p>$55</p>
+    </div>
+  </div>
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_mornings.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Good Morning Box</p>
+      <p>$45</p>
+    </div>
+  </div>
+	
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_purple.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Purple Box</p>
+      <p>$55</p>
+    </div>
+  </div>		
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_gummies_3.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Iron Energy</p>
+      <p>$25</p>
+    </div>
+  </div>
+	
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_entertain.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>For You</p>
+      <p>$55</p>
+    </div>
+  </div>	
+		<div class="column">
+    <div class="card">
+      <img src="Images/honey_tree_hand_sanitising_gel.png" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Honey Hand Sanitising Gel</p>
+      <p>$32</p>
+    </div>
+  </div>
+	
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/geneva_watch.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Geneva Watch</p>
+      <p>$30</p>
+    </div>
+  </div>		
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_wall_art.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Wall Art</p>
+      <p>$35</p>
+    </div>
+  </div>
+	
+		
+  <div class="column">
+    <div class="card">
+      <img src="Images/product_toothbrush.jpg" alt="product" height="270px" width="270px"><!--Img-->
+      <p>Toothbrush</p>
+      <p>$10</p>
+    </div>
+  </div>	
+</div>	
+		<img src="Images/members_gift_hub.jpg" alt="group" class="group">
+<br><br><br><br><br><br><br><br><br>		
+</div>		
+<div class="footer">	
+  <a href="index.html">Home</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="our_story.html">Our Story</a>
+  <a href="bcfnz.html">BCF NZ</a>
+	<br>
+	<p>Created and developed by Matt Sims @2020</p>
+</div>
+</body>
+</html>
