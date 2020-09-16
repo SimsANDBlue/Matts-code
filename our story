@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GiftHub NZ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="gifthub_nz.css" rel="stylesheet" type="text/css">
+<script src="github_nz.js"></script>
+</head>
+
+<body>
+   <div class="topnav" id="myTopnav">
+  <img alt="Logo" class="logo" src="Images/gift_hub_cancer_logo.png" width="200">
+ <a  href="bcfnz.html">BCF NZ</a>	  
+ <a class="active" href="our_story.html">Our Story</a>
+ <a  href="catalogue.html">Catalogue</a>
+ <a  href="index.html">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="main_content">		
+<h1 class="float">Our Story</h1>
+	<h2>WHAT ARE WE?</h2>
+	<p>We are 2020 young enterprise group from Otago Boys High School🏰  in Dunedin.</p>
+	<p>The idea of GIFTHUB NZ came along when we thought about our friends and family. Therefore gifting was the obvious choice. GIFTHUB NZ, aims to be all your favourite local shops in one spot, all your favourite gifts in one click. We incorporate all your favourite gifts to give you an intuitive, stress free shopping experience providing you with the best gifts possible.</p>
+	<p>In one sentence we are basically Santa🎅 on steroids.</p>
+	<h2>GIFTHUB NZ TEAM</h2>
+	<img src="Images/members_gift_hub.jpg" alt="team" class="team" width="100%" height="70%">
+	<p>From the left Sean Purvis (COO), Bob Lee (CEO) , Matthew Sims (DC), Ben Williams Davies (CFO)</p>
+	<h2>Message from the team</h2>
+	<p>Along with gifting happiness we aim to increase breast cancer awareness, we proudly work along with New Zealand Breast Cancer Foundation</p>
+	<p>We also thank Aaron Camplin and Noel Park for their assistance on creating GIFTHUB NZ🎁</p>
+	<p>Special thanks to Angus from startup Dunedin, Mr.Pratley , Andy from Giftbox Boutique for guiding us along the way.</p>
+	<br><br><br><br><br><br><br>
+	
+</div>	
+<div class="footer">	
+  <a href="index.html">Home</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="our_story.html">Our Story</a>
+  <a href="bcfnz.html">BCF NZ</a>
+	<br>
+	<p>Created and developed by Matt Sims @2020</p>
+</div>
+</body>
+</html>
