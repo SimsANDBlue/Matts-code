@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GiftHub NZ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="gifthub_nz.css" rel="stylesheet" type="text/css">
+<script src="github_nz.js"></script>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+  <img alt="Logo" class="logo" src="Images/gift_hub_cancer_logo.png" width="200">
+ <a class="active" href="bcfnz.html">BCF NZ</a>	  
+ <a href="our_story.html">Our Story</a>
+ <a  href="catalogue.html">Catalogue</a>
+ <a  href="index.html">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
+	<br><br><br><br>
+	<h1 class="float2">Breast Cancer Awarness</h1>
+	<br><br><br><br>
+	<div class="parallax1"></div>
+<div class="main_content">
+	<br><br><br><br>
+
+<div class="boxshadow1">
+<p>Everyone breast cancer is different, the two types of breast cancer DCIS&LCIS sometimes called a pre-invasive or stage 0 cancer or Invasive breast cancer. Yes, men can get breast cancer too.</p>
+	<p>There are 4 tests&diagnosis to go from, the triple test, understanding pathology report, breast cancer staging and gene expression profiling.</p>
+	<p>After you have been diagnosed, surgery, chemotherapy and radiation therapy , hormonal therapy, targeted therapy are the choices for treatment.</p>
+	<p>Advanced breast cancer can occur months or years after a diagnosis of early or locally advanced breast cancer. Occasionally, it’s diagnosed at the same time as the original breast cancer or, on rare occasions, before any tumour can be felt or even imaged in the breast. The treatment choices are similar for breast cancer,  learn more from this.</p>
+	<p>Involving in clinical trials, will ensure patients get the best possible care. Allowing patients to access the treatment that aren't available in New Zealand </p>
+	<p>Feel free to contact BCFNZ for counselling, rehab and more.</p>
+	</div>
+	<div class="boxshadow1">
+	<h1 class="float">The Symbol</h1>
+	<p>It's the international symbol of breast cancer and trademarked to BCFNZ in New Zealand. October is International Breast Cancer Awareness Month – our breast health awareness messages peak at this time of year. A large percentage of our work is funded by donations received each October, from community fundraising events and the Pink Ribbon Street Appeal.</p>
+	<p>BCFNZ is a member of the Fundraising Institute of New Zealand and adheres to ethical fundraising practices. Its annual financial statements are prepared by Deloitte and audited by Carlton - DFK chartered accountants.</p>
+		</div>
+	<div class="boxshadow1">
+	<h1 class="float">Who It Reaches</h1>
+	<p>All Kiwis – with education about breast awareness, screening-mammograms, breast cancer risk and breast health, including women and men in remote areas, and ethnic groups with poorer breast cancer outcomes</p>
+	<p>People with breast cancer – with support services and information for patients, their families and friends</p>
+	<p>Health professionals – with information resources for GP and hospital clinics, continuing education for GPs, and training for medical specialists and breastcare nurses</p>
+	<p>Researchers and scientists – by sharing our priorities, and supporting new research and clinical trials in areas that will make a real difference</p>
+	<p>Government – by advocating to and informing government agencies about current issues in breast cancer treatment</p>
+	<p>Breast Cancer Interest Groups – with assistance to breast cancer support groups throughout New Zealand</p>
+		</div>
+	<div class="boxshadow1">
+	<h1 class="float">The Vision</h1>
+	<h3>Our vision: Zero deaths from breast cancer.</h3>
+	<h3>Our mission (how we'll achieve that vision): Pushing for new frontiers in early detection, treatment and support.</h3>
+	</div>
+	
+	
+	
+	<br><br><br><br><br><br><br>
+	</div>
+<div class="footer">	
+  <a href="index.html">Home</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="our_story.html">Our Story</a>
+  <a href="bcfnz.html">BCF NZ</a>
+	<br>
+	<p>Created and developed by Matt Sims @2020</p>
+</div>
+</body>
+</html>
